@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
+# Documentación Ik-Data <!-- omit in toc -->
 
-You can use the [editor on GitHub](https://github.com/ikno-sdm/ikdata-documentacion-spa/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+![Ik-Data Logo](https://github.com/ikno-sdm/ikdata-documentacion-spa/blob/soporte_pulls/media/Ik-Data.png?raw=true)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- [Sobre Ik-Data](#sobre-ik-data)
+  - [Objetivos](#objetivos)
+  - [Metodología](#metodología)
+  - [Fuentes de Adquisición de datos](#fuentes-de-adquisición-de-datos)
+- [Descarga e instalación](#descarga-e-instalación)
 
-### Markdown
+## Sobre Ik-Data
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+IK-DATA es un software de Procesamiento inteligente de documentos (IDP) basado en inteligencia artificial potente y robusto para clasificar, extraer metadata/contenido y producir información de documentos estructurados, semiestructurados y no estructurados.
 
-```markdown
-Syntax highlighted code block
+### Objetivos
 
-# Header 1
-## Header 2
-### Header 3
+1. Mejora los resultados empresariales en aplicaciones de uso intensivo documental para ayudar a:
 
-- Bulleted
-- List
+    - Reducir
+      - El gasto operativo al eliminar el “Data Entry” y el manejo de documentos físicos.  
+      - El tiempo de preparación física del documento.
+      - El tiempo de procesamiento.
+    - Obtener
+      - Resultados más precisos, consistentes y auditables.
 
-1. Numbered
-2. List
+### Metodología
 
-**Bold** and _Italic_ and `Code` text
+1. **Clasificar** con precisión el documento en función del contenido y la imagen.
+1. **Extraer** datos valiosos para iniciar un proceso comercial o alimentar un sistema.
+1. **Aplicar** Reglas de Negocio
+1. **Generar** imágenes en formatos requeridos y datos enrutados al repositorio, ERP, CRM, flujo de trabajo o archivo.
 
-[Link](url) and ![Image](src)
-```
+### Fuentes de Adquisición de datos
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+IK DATA permite procesar documentos provenientes de diversas fuentes incluyendo documentos electrónicos, scanners documentales de diferentes marcas, IBML, Infuse de Alaris, Kodak, Fujitsu entre muchas otras.
 
-### Jekyll Themes
+Esto convierte la solución en una herramienta para la captura inteligente de documentos, más allá de la captura tradicional donde solo importaba la imagen y no el contenido.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ikno-sdm/ikdata-documentacion-spa/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Descarga e instalación
 
-### Support or Contact
+- Windows
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    Para instalar Ik-Data en Windows, puedes elegir entre el [instalador gráfico](https://github.com/Ortega-Dan/IkData-Installers/releases/download/v1.0/SetUp.EXE) o a través de [línea de comandos](https://github.com/Ortega-Dan/IkData-Installers/releases/download/v1.0/Ik-Data_SetUp.zip).
+
+- [Linux]((https://github.com/Ortega-Dan/IkData-Installers/releases/download/v1.0/Ik-Data_SetUp.tar.gz))
