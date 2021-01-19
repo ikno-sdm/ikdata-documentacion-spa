@@ -1,6 +1,6 @@
 # Documentación Ik-Data <!-- omit in toc -->
 
-![Ik-Data Logo](https://github.com/ikno-sdm/ikdata-documentacion-spa/blob/soporte_pulls/media/Ik-Data.png?raw=true)
+![Ik-Data Logo](https://github.com/ikno-sdm/ikdata-documentacion-spa/blob/soporte_updates/media/Ik-Data.png?raw=true)
 
 - [Sobre Ik-Data](#sobre-ik-data)
   - [Objetivos](#objetivos)
