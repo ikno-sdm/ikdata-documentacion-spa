@@ -36,7 +36,7 @@ IK DATA permite procesar documentos provenientes de diversas fuentes incluyendo 
 
 Esto convierte la solución en una herramienta para la captura inteligente de documentos, más allá de la captura tradicional donde solo importaba la imagen y no el contenido.
 
-[Ver Documentación]((https://github.com/ikno-sdm/ikdata-documentacion-spa/blob/soporte_updates/Ik-Data-Doc.md)
+[Ver Documentación](https://github.com/ikno-sdm/ikdata-documentacion-spa/blob/soporte_updates/Ik-Data-Doc.md)
 
 ## Descarga e instalación
 
