@@ -1,6 +1,6 @@
 # IkData Windows 10 Installer <!-- omit in toc -->
 
-![Ik-Data Logo](https://github.com/Ortega-Dan/IkData-Installers/blob/main/windowsInstaller/imgs/Ik-Data.png?raw=true)
+![Ik-Data Logo](../media/Ik-Data.png?raw=true)
 
 - [Download requirements](#download-requirements)
   - [Java 11](#java-11)
@@ -23,17 +23,17 @@ Download `MySQL Installer 8.0.22` from [MySQL Community Downloads](https://dev.m
 
 1. Open `MySQL Installer 8.0.22` and select Custom option.
 
-   - ![mysql-inst1](https://github.com/Ortega-Dan/IkData-Installers/blob/main/windowsInstaller/imgs/mysql-inst1.png)
+   - ![mysql-inst1](imgs/mysql-inst1.png)
 
 2. In the Available Products select:
 
    - `MySQL Server 8.0.21`
    - `MySQL ODBC`
-   - ![mysql-inst2](https://github.com/Ortega-Dan/IkData-Installers/blob/main/windowsInstaller/imgs/mysql-inst2.png)
+   - ![mysql-inst2](imgs/mysql-inst2.png)
 
 3. Select Standalone option and continue with the installation.
 
-   - ![mysql-inst3](https://github.com/Ortega-Dan/IkData-Installers/blob/main/windowsInstaller/imgs/mysql-inst3.png)
+   - ![mysql-inst3](imgs/mysql-inst3.png)
 
 ## Install Ik-Data
 

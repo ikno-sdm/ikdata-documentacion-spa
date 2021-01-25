@@ -1,6 +1,6 @@
 # Ik-Data <!-- omit in toc -->
 
-![Ik-Data Logo](https://github.com/ikno-sdm/ikdata-documentacion-spa/blob/soporte_updates/media/Ik-Data.png?raw=true)
+![Ik-Data Logo](media/Ik-Data.png?raw=true)
 
 - [Sobre Ik-Data](#sobre-ik-data)
   - [Objetivos](#objetivos)
@@ -36,12 +36,12 @@ IK DATA permite procesar documentos provenientes de diversas fuentes incluyendo 
 
 Esto convierte la solución en una herramienta para la captura inteligente de documentos, más allá de la captura tradicional donde solo importaba la imagen y no el contenido.
 
-[Ver Documentación](https://github.com/ikno-sdm/ikdata-documentacion-spa/blob/soporte_updates/Ik-Data-Doc.md)
+[Ver Documentación](doc)
 
 ## Descarga e instalación
 
 - Windows
 
-    Para instalar Ik-Data en Windows, puedes elegir entre el [instalador gráfico](https://github.com/ikno-sdm/ikdata-documentacion-spa/blob/soporte_updates/SetUp-Guides/GUI_SetUp.md) o a través de [línea de comandos](https://github.com/ikno-sdm/ikdata-documentacion-spa/blob/soporte_updates/SetUp-Guides/Command-Line_SetUp.md).
+    Para instalar Ik-Data en Windows, puedes elegir entre el [instalador gráfico](SetUp-Guides/GUI_SetUp) o a través de [línea de comandos](SetUp-Guides/Command-Line_SetUp).
 
-- [Linux](https://github.com/ikno-sdm/ikdata-documentacion-spa/blob/soporte_updates/SetUp-Guides/Linux_SetUp.md)
+- [Linux](SetUp-Guides/Linux_SetUp)

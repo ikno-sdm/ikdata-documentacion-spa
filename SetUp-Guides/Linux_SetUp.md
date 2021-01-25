@@ -1,15 +1,10 @@
 # IkData Ubuntu Installer <!-- omit in toc -->
 
-![Ik-Data Logo](https://github.com/soporte-ikno/IkData_WinInstaller/blob/main/imgs/Ik-Data.png)
+![Ik-Data Logo](../media/Ik-Data.png?raw=true)
 
-- [Download](#download)
 - [Install](#install)
 - [Use](#use)
 - [Uninstall](#uninstall)
-
-## Download
-
-Download [Here](https://github.com/soporte-ikno/IkData_UbuntuInstaller/archive/main.zip).
 
 ## Install
 
@@ -25,7 +20,7 @@ Download [Here](https://github.com/soporte-ikno/IkData_UbuntuInstaller/archive/m
 
 ## Use
 
-In a web browser (Recommended: Microsoft Edge, Mozilla Firefox or Google Chrome) open [IkData](https://localhost:8023).
+In a web browser (Recommended: Microsoft Edge, Mozilla Firefox or Google Chrome) open [IkData](http://localhost:8023).
 
 ## Uninstall
 

@@ -1,6 +1,6 @@
 # Documentación Ik-Data <!-- omit in toc -->
 
-![Ik-Data Logo](https://github.com/ikno-sdm/ikdata-documentacion-spa/blob/soporte_updates/media/Ik-Data.png?raw=true)
+![Ik-Data Logo](media/Ik-Data.png?raw=true)
 
 - [Introducción](#introducción)
   - [Pantalla principal](#pantalla-principal)
@@ -19,7 +19,7 @@
 
 ### Pantalla principal
 
-![First Windows](https://github.com/ikno-sdm/ikdata-documentacion-spa/blob/soporte_updates/media/ScreenShots/img1.PNG?raw=true)
+![First Windows](media/ScreenShots/img1.PNG?raw=true)
 
 Cuando ingresa a Ik-Data, se mostrará la venta de inicio de sesión donde encuentra:
 
@@ -30,11 +30,11 @@ Cuando ingresa a Ik-Data, se mostrará la venta de inicio de sesión donde encue
   
 ### Primer inicio de sesión <!-- omit in toc -->
 
-![First Login](https://github.com/ikno-sdm/ikdata-documentacion-spa/blob/soporte_updates/media/ScreenShots/img2.PNG?raw=true)
+![First Login](media/ScreenShots/img2.PNG?raw=true)
 
 Si es la primera vez que inicia sesión, deberá modificar los datos de acceso como se explica a continuación:
 
-![Change Default User](https://github.com/ikno-sdm/ikdata-documentacion-spa/blob/soporte_updates/media/ScreenShots/img3.PNG?raw=true)
+![Change Default User](media/ScreenShots/img3.PNG?raw=true)
 
 1. Ingrese el nuevo Nombre de Usuario.
 1. Ingrese la nueva Contraseña.
@@ -47,7 +47,7 @@ Una vez realizados los anteriores pasos, se mostrará una ventana indicando que 
 
 Por defecto al iniciar sesión, ingresará a la pestaña de [Administración de Lotes](#administración-de-lotes). Para ver el menú, acerque el mouse al botón de la parte superior izquierda, indicado en el cuadro naranja de la siguiente imagen
 
-![Post Login](https://github.com/ikno-sdm/ikdata-documentacion-spa/blob/soporte_updates/media/ScreenShots/img4.PNG?raw=true)
+![Post Login](media/ScreenShots/img4.PNG?raw=true)
 
 El menú le permite navegar por las diferentes pestañas de la aplicación:
 
@@ -57,11 +57,11 @@ El menú le permite navegar por las diferentes pestañas de la aplicación:
 1. [Usuarios](#usuarios) : Lleva a la pestaña de `Administración de Usuarios`
 1. [Salir](#salir) : Cierra sesión.
 
-![Menu](https://github.com/ikno-sdm/ikdata-documentacion-spa/blob/soporte_updates/media/ScreenShots/img5.PNG?raw=true)
+![Menu](media/ScreenShots/img5.PNG?raw=true)
 
 ### Proyectos
 
-![Project Management](https://github.com/ikno-sdm/ikdata-documentacion-spa/blob/soporte_updates/media/ScreenShots/img6.PNG?raw=true)
+![Project Management](media/ScreenShots/img6.PNG?raw=true)
 
 En la pestaña de Gestión de Proyectos está dividida en tres (3) secciones.
 
@@ -81,7 +81,7 @@ En la pestaña de Gestión de Proyectos está dividida en tres (3) secciones.
 
 #### Crear un proyecto
 
-![New Project](https://github.com/ikno-sdm/ikdata-documentacion-spa/blob/soporte_updates/media/ScreenShots/img7.PNG?raw=true)
+![New Project](media/ScreenShots/img7.PNG?raw=true)
 
 Los pasos para crear un nuevo proyectos son:
 
@@ -92,7 +92,7 @@ Los pasos para crear un nuevo proyectos son:
 
 #### Importar un proyecto
 
-![Import Project](https://github.com/ikno-sdm/ikdata-documentacion-spa/blob/soporte_updates/media/ScreenShots/img8.PNG?raw=true)
+![Import Project](media/ScreenShots/img8.PNG?raw=true)
 
 Para importar un proyecto:
 
@@ -109,7 +109,7 @@ Para importar un proyecto:
 
 Para subir lotes (documentos PDF, imágenes JPG, PNG, TIFF) se puede hacer desde la carpeta asignada al proyecto o desde la pestaña 'Subir imágenes' como se explica a continuación:
 
-![Batches](https://github.com/ikno-sdm/ikdata-documentacion-spa/blob/soporte_updates/media/ScreenShots/img9.PNG?raw=true)
+![Batches](media/ScreenShots/img9.PNG?raw=true)
 
 1. Selecciones el proyecto al cual va a cargar el lote.
 2. Cargue el archivo (Arrastrando y soltando o haciendo Haga clic en cualquier parte de este espacio para abrir el cuadro de carga por default).
@@ -123,7 +123,7 @@ Desde esta pestaña puede editar, eliminar o crear un [nuevo usuario](#crear-usu
 
 #### Crear usuario
 
-![User Management](https://github.com/ikno-sdm/ikdata-documentacion-spa/blob/soporte_updates/media/ScreenShots/img10.PNG?raw=true)
+![User Management](media/ScreenShots/img10.PNG?raw=true)
 
 1. Haga clic en el botón Crear usuario.
 2. Ingrese el nombre del usuario.
