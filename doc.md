@@ -2,24 +2,25 @@
 
 ![Ik-Data Logo](media/Ik-Data.png?raw=true)
 
+## Tabla de contenido <!-- omit in toc -->
+
 - [Introducción](#introducción)
   - [Pantalla principal](#pantalla-principal)
-- [Menú](#menú)
-  - [Proyectos](#proyectos)
-    - [Crear un proyecto](#crear-un-proyecto)
-    - [Importar un proyecto](#importar-un-proyecto)
-    - [Ver o Modificar proyectos](#ver-o-modificar-proyectos)
-    - [Exportar](#exportar)
-  - [Subir imágenes](#subir-imágenes)
-  - [Administración de Lotes](#administración-de-lotes)
-  - [Usuarios](#usuarios)
-    - [Crear usuario](#crear-usuario)
+- [Proyectos](#proyectos)
+  - [Crear un proyecto](#crear-un-proyecto)
+  - [Importar un proyecto](#importar-un-proyecto)
+  - [Ver o Modificar proyectos](#ver-o-modificar-proyectos)
+  - [Exportar](#exportar)
+- [Subir imágenes](#subir-imágenes)
+- [Administración de Lotes](#administración-de-lotes)
+- [Usuarios](#usuarios)
+  - [Crear usuario](#crear-usuario)
 
 ## Introducción
 
 ### Pantalla principal
 
-![First Windows](media/ScreenShots/img1.PNG?raw=true)
+![First Windows](media/ScreenShots/img1.png?raw=true)
 
 Cuando ingresa a Ik-Data, se mostrará la venta de inicio de sesión donde encuentra:
 
@@ -30,11 +31,11 @@ Cuando ingresa a Ik-Data, se mostrará la venta de inicio de sesión donde encue
   
 ### Primer inicio de sesión <!-- omit in toc -->
 
-![First Login](media/ScreenShots/img2.PNG?raw=true)
+![First Login](media/ScreenShots/img2.png?raw=true)
 
 Si es la primera vez que inicia sesión, deberá modificar los datos de acceso como se explica a continuación:
 
-![Change Default User](media/ScreenShots/img3.PNG?raw=true)
+![Change Default User](media/ScreenShots/img3.png?raw=true)
 
 1. Ingrese el nuevo Nombre de Usuario.
 1. Ingrese la nueva Contraseña.
@@ -43,11 +44,9 @@ Si es la primera vez que inicia sesión, deberá modificar los datos de acceso c
 
 Una vez realizados los anteriores pasos, se mostrará una ventana indicando que la modificación ha sido efectuada.
 
-## Menú
-
 Por defecto al iniciar sesión, ingresará a la pestaña de [Administración de Lotes](#administración-de-lotes). Para ver el menú, acerque el mouse al botón de la parte superior izquierda, indicado en el cuadro naranja de la siguiente imagen
 
-![Post Login](media/ScreenShots/img4.PNG?raw=true)
+![Post Login](media/ScreenShots/img4.png?raw=true)
 
 El menú le permite navegar por las diferentes pestañas de la aplicación:
 
@@ -57,11 +56,11 @@ El menú le permite navegar por las diferentes pestañas de la aplicación:
 1. [Usuarios](#usuarios) : Lleva a la pestaña de `Administración de Usuarios`
 1. [Salir](#salir) : Cierra sesión.
 
-![Menu](media/ScreenShots/img5.PNG?raw=true)
+![Menu](media/ScreenShots/img5.png?raw=true)
 
-### Proyectos
+## Proyectos
 
-![Project Management](media/ScreenShots/img6.PNG?raw=true)
+![Project Management](media/ScreenShots/img6.png?raw=true)
 
 En la pestaña de Gestión de Proyectos está dividida en tres (3) secciones.
 
@@ -79,9 +78,9 @@ En la pestaña de Gestión de Proyectos está dividida en tres (3) secciones.
    1. Desbloquear: ¿?
    1. Refrescar: Actualiza el estado de los proyectos.
 
-#### Crear un proyecto
+### Crear un proyecto
 
-![New Project](media/ScreenShots/img7.PNG?raw=true)
+![New Project](media/ScreenShots/img7.png?raw=true)
 
 Los pasos para crear un nuevo proyectos son:
 
@@ -90,9 +89,9 @@ Los pasos para crear un nuevo proyectos son:
 3. Ingrese la ruta absoluta de una carpeta existente dentro del equipo.
 4. Haga clic en el botón `Crear`.
 
-#### Importar un proyecto
+### Importar un proyecto
 
-![Import Project](media/ScreenShots/img8.PNG?raw=true)
+![Import Project](media/ScreenShots/img8.png?raw=true)
 
 Para importar un proyecto:
 
@@ -101,29 +100,29 @@ Para importar un proyecto:
 3. Ingrese la ruta absoluta de una carpeta existente dentro del equipo.
 4. Espacio para cargar el archivo comprimido (Arrastrando y soltando o haciendo Haga clic en cualquier parte de este espacio para abrir el cuadro de carga por default).
 
-#### Ver o Modificar proyectos
+### Ver o Modificar proyectos
 
-#### Exportar
+### Exportar
 
-### Subir imágenes
+## Subir imágenes
 
-Para subir lotes (documentos PDF, imágenes JPG, PNG, TIFF) se puede hacer desde la carpeta asignada al proyecto o desde la pestaña 'Subir imágenes' como se explica a continuación:
+Para subir lotes (documentos PDF, imágenes JPG, png, TIFF) se puede hacer desde la carpeta asignada al proyecto o desde la pestaña 'Subir imágenes' como se explica a continuación:
 
-![Batches](media/ScreenShots/img9.PNG?raw=true)
+![Batches](media/ScreenShots/img9.png?raw=true)
 
 1. Selecciones el proyecto al cual va a cargar el lote.
 2. Cargue el archivo (Arrastrando y soltando o haciendo Haga clic en cualquier parte de este espacio para abrir el cuadro de carga por default).
 3. Haga clic en el botón `Cargar archivo(s)`.
 
-### Administración de Lotes
+## Administración de Lotes
 
-### Usuarios
+## Usuarios
 
 Desde esta pestaña puede editar, eliminar o crear un [nuevo usuario](#crear-usuario).
 
-#### Crear usuario
+### Crear usuario
 
-![User Management](media/ScreenShots/img10.PNG?raw=true)
+![User Management](media/ScreenShots/img10.png?raw=true)
 
 1. Haga clic en el botón Crear usuario.
 2. Ingrese el nombre del usuario.
@@ -131,3 +130,21 @@ Desde esta pestaña puede editar, eliminar o crear un [nuevo usuario](#crear-usu
 4. Ingrese nuevamente la contraseña.
 5. Seleccione si el usuario va a tener permisos de Administrador.
 6. Haga clic en el botón Guardar.
+
+[*Regresar a Tabla de Contenido.*](#tabla-de-contenido)
+
+
+![Projects Sett](media/ScreenShots/img11.png?raw=true)
+![Projects Sett Prepro](media/ScreenShots/img12.png?raw=true)
+![Projects Sett Prepro2](media/ScreenShots/img13.png?raw=true)
+![Projects Sett Doctypes](media/ScreenShots/img14.png?raw=true)
+![Projects Sett Processing Prev](media/ScreenShots/img15.png?raw=true)
+![Projects Sett Doctypes2](media/ScreenShots/img16.png?raw=true)
+![Projects Sett Processing Filedsett](media/ScreenShots/img17.png?raw=true)
+![Projects Sett Processing Field2](media/ScreenShots/img18.png?raw=true)
+![Projects Sett Processing Fieldonimg](media/ScreenShots/img19.png?raw=true)
+![Projects Sett Export](media/ScreenShots/img20.png?raw=true)
+![Batches Validate](media/ScreenShots/img21.png?raw=true)
+![Batches Validate2](media/ScreenShots/img22.png?raw=true)
+![Batches Validate3](media/ScreenShots/img23.png?raw=true)
+![Batches Finished](media/ScreenShots/img24.png?raw=true)
