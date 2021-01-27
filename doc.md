@@ -79,8 +79,7 @@ La pestaña de `Gestión de Proyectos` está dividida en tres (3) secciones:
    - Exportar: Exporta el proyecto con todas las configuraciones actuales en un archivo ZIP.
    - Eliminar: Eliminar un proyecto.
       - NOTA: El proyecto no debe tener lotes pendientes.
-    <!-- TODO: -->
-   - Desbloquear: ...
+   - Desbloquear: Desbloquea el acceso en caso de que un usuario no haya cerrado el proyecto.
    - Refrescar: Actualiza el estado de los proyectos.
 
 ![Project Management](media/ScreenShots/img6.png)
@@ -123,23 +122,30 @@ Cuando abre un proyecto, encuentra dos secciones:
 
 #### Pre-procesamiento
 
-<!-- The Next oder list HAVE to have an explicit numeration -->
-
 1. Ruta de la carpeta para subir archivos (lotes) para procesar.
-2. ...<!-- TODO: -->
-3. Idioma de los archivos.
-4. ...<!-- TODO: -->
-5. Puede elegir la prioridad que tendrán los lotes del proyecto respecto a otros proyectos (Siendo 1: Más importante y 5: Menos importante).
+1. Tipos de Clasificación: Configura el tipo de clasificación:
+   - ocr (por defecto cuando queda vacío)
+   - key
+   - qr
+2. Idioma de los archivos:
+   - Español:
+     - spanormal (Recomendado)
+     - spa
+   - Inglés:
+     - eng
+3. Configuración de Segmentación (Para más información consulte [Opciones Tesseract](https://github.com/tesseract-ocr/tesseract/blob/master/doc/tesseract.1.asc#options))
+4. Puede elegir la prioridad que tendrán los lotes del proyecto respecto a otros proyectos (Siendo 1: Más importante y 5: Menos importante).
 
 ![Projects Sett Prepro](media/ScreenShots/img12.png)
 
+<!-- The Next oder list HAVE to have an explicit numeration -->
+
 6. Puede configurar un correo GMAIL para procesar los archivos adjunto que a este lleguen.
-7. Permite configurar un escáner [INfuse](https://www.alarisworld.com/es-co/landing-page/infuse-smart-connected-scanning).
-8. ...<!-- TODO: -->
+1. Permite configurar un escáner [INfuse](https://www.alarisworld.com/es-co/landing-page/infuse-smart-connected-scanning).
+2. Limpia las líneas de las imágenes.
+
 
 ![Projects Sett Prepro2](media/ScreenShots/img13.png)
-
-<!-- End of the explicit numeration-->
 
 #### Procesamiento
 
@@ -160,7 +166,7 @@ Al hacer clic sobre un documento, se mostrará la configuración de dicho docume
 1. Datos generales (De izquierda a derecha):
    - Nombre de la tipología.
    - Descripción.
-   - Margen de confianza: ...<!-- TODO: -->
+   - Margen de confianza: Margen de incertidumbre aceptable (Número entre 1 y 100)
 2. Area para cargar una imagen de referencia.
 3. Elimina la imagen actual.
 4. Descargar la imagen
@@ -181,7 +187,7 @@ Una vez creado y configurado un tipo de documento, puede añadir los campos que 
 En esta pestaña, puede establecer los campos de interés.
 
 1. Lista de campos.
-2. Acciones sobre los campos.
+1. Acciones sobre los campos.
    - Agregar Campo: Añade un nuevo campo.
    - Guardar Todo: Guardar todos los cambios realizados.
    - Borrar Campos: Elimina los campos seleccionados.
@@ -202,12 +208,12 @@ Aquí se resaltan, las siguientes regiones:
 
 1. Información del sub campo:
    - Key Pattern: Texto del título del campo a encontrar.
-   - Key Fuzziness: ...<!-- TODO: -->
+   - Key Fuzziness: Margen de posible discrepancia entre el Key Pattern establecido y el procesado.
    - Value Pattern: Expresión Regular del dato a obtener.
 
-1. Área donde se ubica el Key Pattern.
-1. Área donde se ubica el Value Pattern.
-1. Acciones:
+2. Área donde se ubica el Key Pattern.
+3. Área donde se ubica el Value Pattern.
+4. Acciones:
    - Choose Image: Selecciona un documento de referencia.
    - Save Changes: Guarda todos los cambios.
 
@@ -250,13 +256,13 @@ En este punto podrá validar los datos procesados haciendo doble clic en el lote
 Aquí se presenta:
 
 1. Cada página del lote.
-2. Acciones:
+1. Acciones:
    - Anterior o Siguiente, permite moverse por los campos.
-3. Tipo de documento.
-4. Campos y valor obtenido.
+1. Tipo de documento.
+1. Campos y valor obtenido.
    - Si está en Naranja, significa que hay bajo porcentaje de confianza en la detección. Realice la corrección, de ser necesario, y pulse el botón Validar.
-5. Indicación del lugar del campo identificado dentro de la imagen.
-6. Controles de vista. Podrá aumentar el tamaño de la imagen si requiere comprobar el dato del campo.
+1. Indicación del lugar del campo identificado dentro de la imagen.
+1. Controles de vista. Podrá aumentar el tamaño de la imagen si requiere comprobar el dato del campo.
 
 ![Batches Validate2](media/ScreenShots/img22.png)
 
