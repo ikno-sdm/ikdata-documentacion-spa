@@ -22,6 +22,8 @@
 
 ## Introducción
 
+IK-DATA es un software de Procesamiento inteligente de documentos (IDP) basado en inteligencia artificial para conocer más acerca de Ik-Data, haga click en el siguiente [enlace](https://ikno-sdm.github.io/ikdata-documentacion-spa/)
+
 ### Pantalla principal
 
 ![First Windows](media/ScreenShots/img1.png)
@@ -35,16 +37,18 @@ Cuando ingresa a Ik-Data, se mostrará la venta de inicio de sesión donde encue
 
 ### Primer inicio de sesión <!-- omit in toc -->
 
-![First Login](media/ScreenShots/img2.png)
-
 Si es la primera vez que inicia sesión, deberá modificar los datos de acceso como se explica a continuación:
 
-![Change Default User](media/ScreenShots/img3.png)
+![First Login](media/ScreenShots/img2.png)
 
 1. Ingrese el nuevo Nombre de Usuario.
 1. Ingrese la nueva Contraseña.
 1. Ingrese de nuevo la nueva Contraseña.
 1. Haga clic en el botón `Guardar`
+
+![Change Default User](media/ScreenShots/img3.png)
+
+[*Ir a la Tabla de Contenido.*](#toc)
 
 ---
 
@@ -64,7 +68,7 @@ El menú le permite navegar por las diferentes pestañas de la aplicación:
 
 ![Menu](media/ScreenShots/img5.png)
 
-[*Ir a a la Tabla de Contenido.*](#toc)
+[*Ir a la Tabla de Contenido.*](#toc)
 
 ## Proyectos
 
@@ -231,9 +235,9 @@ Una vez procesado y validado los cada documento, se exportarán los datos extra�
 
 ![Projects Sett Export](media/ScreenShots/img20.png)
 
-## Subir imágenes
+[*Ir a la Tabla de Contenido.*](#toc)
 
-[*Ir a a la Tabla de Contenido.*](#toc)
+## Subir imágenes
 
 Para subir lotes (documentos PDF, imágenes JPG, png, TIFF) se puede hacer desde la carpeta asignada al proyecto o desde la pestaña 'Subir imágenes' como se explica a continuación:
 
@@ -242,6 +246,8 @@ Para subir lotes (documentos PDF, imágenes JPG, png, TIFF) se puede hacer desde
 1. Selecciones el proyecto al cual va a cargar el lote.
 1. Cargue el archivo (Arrastrando y soltando o haciendo Haga clic en cualquier parte de este espacio para abrir el cuadro de carga por default).
 1. Haga clic en el botón `Cargar archivo(s)`.
+
+[*Ir a la Tabla de Contenido.*](#toc)
 
 ## Administración de Lotes
 
@@ -274,7 +280,7 @@ Al haber confirmado la validación, se exportarán los datos del lote y habrá f
 
 ![Batches Finished](media/ScreenShots/img24.png)
 
-[*Ir a a la Tabla de Contenido.*](#toc)
+[*Ir a la Tabla de Contenido.*](#toc)
 
 ## Usuarios
 
@@ -291,4 +297,4 @@ Desde esta pestaña puede editar, eliminar o crear un [nuevo usuario](#crear-usu
 1. Seleccione si el usuario va a tener permisos de Administrador.
 1. Haga clic en el botón Guardar.
 
-[*Ir a a la Tabla de Contenido.*](#toc)
+[*Ir a la Tabla de Contenido.*](#toc)
