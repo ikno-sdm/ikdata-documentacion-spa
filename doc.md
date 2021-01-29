@@ -32,7 +32,7 @@ Cuando ingresa a Ik-Data, se mostrará la venta de inicio de sesión donde encue
 
   1. **Cambiar idioma**: Cambia el idioma de la interfaz (Inglés / Español).
   2. Campos para ingreso de los datos de usuario.
-     - NOTA: Este botón estará visible en todas las pestañas de la aplicación.
+     >NOTA: Este botón estará visible en todas las pestañas de la aplicación.
   3. Versión de Ik-Data.
 
 ### Primer inicio de sesión <!-- omit in toc -->
@@ -87,7 +87,7 @@ La pestaña de `Gestión de Proyectos` está dividida en tres (3) secciones:
    - [Abrir](#ver-o-modificar-proyectos): Permite ver o modificar la configuración de un proyecto.
    - Exportar: Exporta el proyecto con todas las configuraciones actuales en un archivo ZIP.
    - Eliminar: Eliminar un proyecto.
-      - NOTA: El proyecto no debe tener lotes pendientes.
+      >NOTA: El proyecto no debe tener lotes pendientes.
    - Desbloquear: Desbloquea el acceso en caso de que un usuario no haya cerrado el proyecto.
    - Refrescar: Actualiza el estado de los proyectos.
 
@@ -257,13 +257,38 @@ Para subir lotes (documentos PDF, imágenes JPG, png, TIFF) se puede hacer desde
 
 ## Administración de Lotes
 
-<!-- TODO: Describe next line -->
+Esta es la vista principal, ya que aquí se encuentra un resumen de la información más relevante:
+
+1. Listado de los lotes cargados.
+2. Acciones sobre los lotes.
+   - ABRIR: Abre la vista de `validación`, solo si el lote se encuentra en ese estado.
+   - BORRAR: Elimina el lote.
+   - DESBLOQUEAR: Desbloquea el acceso a la validación del lote, si está ocupado por otro usuario.
+   - REPROCESAR: Ejecuta de nuevo el procesamiento del lote.
+
+3. Gráfica de torta que muestra el estado de todos los lotes.
+4. Muestra información adicional del lote.
+   >NOTA: Este campo solo es visible al seleccionar un lote.
+   - En esta área, se muestra un gráfico que indica el progreso del lote.
+
+5. Gráfico que muestra el número de páginas procesadas en las últimas 24 horas.
 
 ![Batch Management][BatchManagement]
 
 <details>
 
 <summary>Procesamiento de un lote</summary>
+
+Cuando un lote es cargado, éste se pone en cola para su procesamiento, el cual consta de 8 pasos:
+
+1. 🟨NEW (Nuevo): Indica que el lote está cargado y está en cola.
+2. 🟪PREPROCESSING (Preprocesamiento): Análisis del lote y preprocesamiento de imágenes.
+3. 🟦PROCESSING (Procesamiento): Clasificación y extracción de datos.
+4. 🟩VALIDATE (Validación): Lote en espera de validación manual.
+5. OPEN (Abierto): El lote ha sido abierto para validación, pero no se ha finalizado.
+6. READY (Listo): El lote ha sido validado.
+7. 🟫EXPORTING (Exportando): Exportación de los datos extraídos.
+8. 🟧FINISHED (Finalizado): Lote finalizado.
 
 ![Batch Process][BatchProcess]
 
