@@ -39,9 +39,6 @@ Cuando ingresa a Ik-Data, se mostrará la venta de inicio de sesión donde encue
 
 Si es la primera vez que inicia sesión, deberá modificar los datos de acceso como se explica a continuación:
 
-<details>
-<summary> Cambio de usuario por defecto </summary>
-
 ![First Login][FirstLogin]
 
 1. Ingrese el nuevo Nombre de Usuario.
@@ -52,8 +49,6 @@ Si es la primera vez que inicia sesión, deberá modificar los datos de acceso c
 ![Change Default User][ChangeDefaultUser]
 
 [*Ir a la Tabla de Contenido.*](#toc)
-
-</details>
 
 ---
 
@@ -151,7 +146,8 @@ Cuando abre un proyecto, encuentra dos secciones:
 
 6. Puede configurar un correo GMAIL para procesar los archivos adjunto que a este lleguen.
 7. Permite configurar un escáner [INfuse](https://www.alarisworld.com/es-co/landing-page/infuse-smart-connected-scanning).
-8. Limpia las líneas de las imágenes.
+   >NOTA: Para ver el funcionamiento de estas dos funciones puede ver el siguiente [video](https://youtu.be/EgRRXJbqHk4).
+9. Limpia las líneas de las imágenes.
 
 <!-- markdownlint-enable MD029 -->
 
@@ -275,9 +271,7 @@ Esta es la vista principal, ya que aquí se encuentra un resumen de la informaci
 
 ![Batch Management][BatchManagement]
 
-<details>
-
-<summary>Procesamiento de un lote</summary>
+---
 
 Cuando un lote es cargado, éste se pone en cola para su procesamiento, el cual consta de 8 pasos:
 
@@ -291,8 +285,6 @@ Cuando un lote es cargado, éste se pone en cola para su procesamiento, el cual 
 8. 🟧FINISHED (Finalizado): Lote finalizado.
 
 ![Batch Process][BatchProcess]
-
-</details>
 
 En este punto podrá validar los datos procesados haciendo doble clic en el lote.
 
