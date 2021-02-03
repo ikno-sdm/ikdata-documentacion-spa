@@ -1,3 +1,18 @@
-theme: jekyll-theme-cayman
-encoding: UTF-8
-# markdown: CommonMarkGhPages
+# Setup
+title:        Ik-Data
+tagline:      Procesamiento inteligente de documentos
+baseurl:      ""
+paginate:     1
+locale:       "es"
+
+# About/contact
+author:
+  name:       IKNO-SDM
+  url:        https://github.com/ikno-sdm
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown

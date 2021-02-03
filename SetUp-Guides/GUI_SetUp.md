@@ -1,6 +1,9 @@
-# IkData Windows 10 Installer <!-- omit in toc -->
+---
+layout: default
+title: {{ site.name }}
+---
 
-![Ik-Data Logo](imgs/Ik-Data.png?raw=true)
+# IkData Windows 10 Installer <!-- omit in toc -->
 
 - [Download requirements](#download-requirements)
   - [MySQL](#mysql)

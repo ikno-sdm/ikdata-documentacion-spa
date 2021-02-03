@@ -1,6 +1,9 @@
-# IkData Ubuntu Installer <!-- omit in toc -->
+---
+layout: default
+title: {{ site.name }}
+---
 
-![Ik-Data Logo](../media/Ik-Data.png?raw=true)
+# IkData Ubuntu Installer <!-- omit in toc -->
 
 - [Install](#install)
 - [Use](#use)

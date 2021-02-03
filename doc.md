@@ -1,7 +1,8 @@
-# Documentación Ik-Data <!-- omit in toc -->
-
-![Ik-Data Logo](media/Ik-Data.png)
-
+---
+layout: default
+title: {{ site.name }}
+---
+<!-- markdownlint-disable no-inline-html -->
 <div id="toc"></div>
 
 ## Tabla de Contenido <!-- omit in toc -->
@@ -279,11 +280,12 @@ Cuando un lote es cargado, éste se pone en cola para su procesamiento, el cual 
 2. 🟪PREPROCESSING (Preprocesamiento): Análisis del lote y preprocesamiento de imágenes.
 3. 🟦PROCESSING (Procesamiento): Clasificación y extracción de datos.
 4. 🟩VALIDATE (Validación): Lote en espera de validación manual.
-5. OPEN (Abierto): El lote ha sido abierto para validación, pero no se ha finalizado.
-6. READY (Listo): El lote ha sido validado.
+5. ![square1][sqr1] OPEN (Abierto): El lote ha sido abierto para validación, pero no se ha finalizado.
+6. ![square2][sqr2] READY (Listo): El lote ha sido validado.
 7. 🟫EXPORTING (Exportando): Exportación de los datos extraídos.
 8. 🟧FINISHED (Finalizado): Lote finalizado.
 
+---
 ![Batch Process][BatchProcess]
 
 En este punto podrá validar los datos procesados haciendo doble clic en el lote.
@@ -360,3 +362,6 @@ Desde esta pestaña puede editar, eliminar o crear un [nuevo usuario](#crear-usu
 [UserNew]: media/ScreenShots/img26.png "Creación de nuevo usuario"
 
 [BatchProcess]: media/ScreenShots/processBatch.gif "Progreso de lote"
+
+[sqr1]: media/others/sqr1.svg
+[sqr2]: media/others/sqr2.svg

@@ -1,6 +1,10 @@
-#  <!-- omit in toc -->
+---
+layout: default
+title: {{ site.name }}
+---
 
-![Ik-Data Logo](media/Ik-Data.png?raw=true)
+<!-- markdownlint-disable headings -->
+## Tabla de Contenido<!-- omit in toc -->
 
 - [Sobre Ik-Data](#sobre-ik-data)
   - [Objetivos](#objetivos)
