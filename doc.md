@@ -3,7 +3,6 @@ layout: default
 title: {{ site.name }}
 ---
 <!-- markdownlint-disable no-inline-html -->
-<div id="toc"></div>
 
 ## Tabla de Contenido <!-- omit in toc -->
 
@@ -36,6 +35,10 @@ Cuando ingresa a Ik-Data, se mostrará la venta de inicio de sesión donde encue
      >NOTA: Este botón estará visible en todas las pestañas de la aplicación.
   3. Versión de Ik-Data.
 
+<details>
+<summary>Modificación de usuario por defecto</summary>
+<div markdown="1">
+
 ### Primer inicio de sesión <!-- omit in toc -->
 
 Si es la primera vez que inicia sesión, deberá modificar los datos de acceso como se explica a continuación:
@@ -49,9 +52,11 @@ Si es la primera vez que inicia sesión, deberá modificar los datos de acceso c
 
 ![Change Default User][ChangeDefaultUser]
 
-[*Ir a la Tabla de Contenido.*](#toc)
+[*Ir a la Tabla de Contenido.*][toc]
 
 ---
+</div>
+</details>
 
 Una vez realizados los anteriores pasos, se mostrará una ventana indicando que la modificación ha sido efectuada.
 
@@ -69,7 +74,7 @@ El menú le permite navegar por las diferentes pestañas de la aplicación:
 
 ![Menú][Menu]
 
-[*Ir a la Tabla de Contenido.*](#toc)
+[*Ir a la Tabla de Contenido.*][toc]
 
 ## Proyectos
 
@@ -238,7 +243,7 @@ Una vez procesado y validado los cada documento, se exportarán los datos extra�
 
 ![Projects Sett Export][ProjectsSettExport]
 
-[*Ir a la Tabla de Contenido.*](#toc)
+[*Ir a la Tabla de Contenido.*][toc]
 
 ## Subir imágenes
 
@@ -250,7 +255,7 @@ Para subir lotes (documentos PDF, imágenes JPG, png, TIFF) se puede hacer desde
 2. Cargue el archivo (Arrastrando y soltando o haciendo Haga clic en cualquier parte de este espacio para abrir el cuadro de carga por default).
 3. Haga clic en el botón `Cargar archivo(s)`.
 
-[*Ir a la Tabla de Contenido.*](#toc)
+[*Ir a la Tabla de Contenido.*][toc]
 
 ## Administración de Lotes
 
@@ -285,8 +290,16 @@ Cuando un lote es cargado, éste se pone en cola para su procesamiento, el cual 
 7. 🟫EXPORTING (Exportando): Exportación de los datos extraídos.
 8. 🟧FINISHED (Finalizado): Lote finalizado.
 
----
+<details open>
+<summary>Ver Animación</summary>
+<div markdown="1">
+
 ![Batch Process][BatchProcess]
+
+</div>
+</details>
+
+---
 
 En este punto podrá validar los datos procesados haciendo doble clic en el lote.
 
@@ -313,7 +326,7 @@ Al haber confirmado la validación, se exportarán los datos del lote y habrá f
 
 ![Batches Finished][BatchesFinished]
 
-[*Ir a la Tabla de Contenido.*](#toc)
+[*Ir a la Tabla de Contenido.*][toc]
 
 ## Usuarios
 
@@ -330,7 +343,7 @@ Desde esta pestaña puede editar, eliminar o crear un [nuevo usuario](#crear-usu
 5. Seleccione si el usuario va a tener permisos de Administrador.
 6. Haga clic en el botón Guardar.
 
-[*Ir a la Tabla de Contenido.*](#toc)
+[*Ir a la Tabla de Contenido.*][toc]
 
 <!-- ----------------------IMAGE URLS---------------------------------- -->
 
@@ -361,7 +374,12 @@ Desde esta pestaña puede editar, eliminar o crear un [nuevo usuario](#crear-usu
 [UserManagement]: media/ScreenShots/img25.png "Administration de Usuarios"
 [UserNew]: media/ScreenShots/img26.png "Creación de nuevo usuario"
 
+<!-- Gif -->
 [BatchProcess]: media/ScreenShots/processBatch.gif "Progreso de lote"
 
+<!-- SVG -->
 [sqr1]: media/others/sqr1.svg
 [sqr2]: media/others/sqr2.svg
+
+<!-- TOC -->
+[toc]: #tabla-de-contenido-
