@@ -369,7 +369,7 @@ Desde esta pestaña puede editar, eliminar o crear un [nuevo usuario](#crear-usu
 [BatchManagement]: media/ScreenShots/img20.png "Administración de Lotes2"
 [BatchesValidate]: media/ScreenShots/img21.png "Lote listo para validar"
 [BatchesValidate2]: media/ScreenShots/img22.png "Validación de lote"
-[BatchesValidate3]: media/ScreenShots/img23.png "Confirmación de finalización de validación"
+[BatchesValidate3]: media/ScreenShots/img23.png "Confirmación de finalización de la validación"
 [BatchesFinished]: media/ScreenShots/img24.png "Lote finalizado"
 [UserManagement]: media/ScreenShots/img25.png "Administration de Usuarios"
 [UserNew]: media/ScreenShots/img26.png "Creación de nuevo usuario"
