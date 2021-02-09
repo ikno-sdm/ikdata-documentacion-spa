@@ -140,23 +140,31 @@ a:hover { text-decoration: underline; }
   .btn + .btn { margin-left: 0; } }
 
 .page-header { color: #fff; text-align: center; background-color: #159957; background-image: linear-gradient(120deg, #155799, #E9184E); }
+
 .page-header img { max-width: 60%; }
-@media screen and (min-width: 64em) { .page-header { padding: 1rem 0rem; } .page-header + .page-header img {max-width: 10%; margin-left: 2rem;}}
-@media screen and (min-width: 42em) and (max-width: 64em) { .page-header { padding: 1rem 0rem; } .page-header + .page-header img {max-width: 10%; margin-left: 2rem;}}
-@media screen and (max-width: 42em) { .page-header { padding: 0.5rem 0.5rem; } .page-header + .page-header img {max-width: 60%;
-margin-left: 0;}}
 
 .page-header + .page-header {
   text-align: unset;
   position: fixed;
   top: -18rem;
   transition: top 0.3s;
+  width: 100%;
+}
+
+.page-header + .page-header img {
+  max-width: 100%;
+  height: 2.5rem;
 }
 
 .page-header + .page-header .btns {
   float: right;
   margin-right: 2rem;
 }
+
+@media screen and (min-width: 64em) { .page-header { padding: 1rem 0rem; } .page-header + .page-header img { height: 2.5rem; margin-left: 2rem;}}
+@media screen and (min-width: 42em) and (max-width: 64em) { .page-header { padding: 1rem 0rem; } .page-header + .page-header img { margin-left: 2rem;}}
+@media screen and (max-width: 42em) { .page-header { padding: 0.5rem 0.5rem; } .page-header + .page-header .btns { margin-right: 0;}}
+
 
 .project-name { margin-top: 0; margin-bottom: 0.1rem; }
 @media screen and (min-width: 64em) { .project-name { font-size: 3.25rem; } }
