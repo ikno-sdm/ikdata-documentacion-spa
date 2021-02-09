@@ -4,7 +4,9 @@ title: {{ site.name }}
 ---
 <!-- markdownlint-disable no-inline-html -->
 
-## Tabla de Contenido <!-- omit in toc -->
+<div class="toc" markdown="1">
+
+## Tabla de Contenido<!-- omit in toc -->
 
 - [Introducción](#introducción)
   - [Pantalla principal](#pantalla-principal)
@@ -19,6 +21,8 @@ title: {{ site.name }}
 - [Administración de Lotes](#administración-de-lotes)
 - [Usuarios](#usuarios)
   - [Crear usuario](#crear-usuario)
+
+</div>
 
 ## Introducción
 
@@ -369,7 +373,7 @@ Desde esta pestaña puede editar, eliminar o crear un [nuevo usuario](#crear-usu
 [BatchManagement]: media/ScreenShots/img20.png "Administración de Lotes2"
 [BatchesValidate]: media/ScreenShots/img21.png "Lote listo para validar"
 [BatchesValidate2]: media/ScreenShots/img22.png "Validación de lote"
-[BatchesValidate3]: media/ScreenShots/img23.png "Confirmación de finalización de validación"
+[BatchesValidate3]: media/ScreenShots/img23.png "Confirmación de finalización de la validación"
 [BatchesFinished]: media/ScreenShots/img24.png "Lote finalizado"
 [UserManagement]: media/ScreenShots/img25.png "Administration de Usuarios"
 [UserNew]: media/ScreenShots/img26.png "Creación de nuevo usuario"
@@ -382,4 +386,4 @@ Desde esta pestaña puede editar, eliminar o crear un [nuevo usuario](#crear-usu
 [sqr2]: media/others/sqr2.svg
 
 <!-- TOC -->
-[toc]: #tabla-de-contenido-
+[toc]: #tabla-de-contenido

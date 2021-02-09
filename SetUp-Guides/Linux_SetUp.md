@@ -2,12 +2,20 @@
 layout: default
 title: {{ site.name }}
 ---
+<!-- markdownlint-disable headings -->
+<!-- markdownlint-disable no-inline-html -->
 
 # IkData Ubuntu Installer <!-- omit in toc -->
+
+<div class="toc" markdown="1">
+
+## Tabla de Contenido<!-- omit in toc -->
 
 - [Install](#install)
 - [Use](#use)
 - [Uninstall](#uninstall)
+
+</div>
 
 ## Install
 

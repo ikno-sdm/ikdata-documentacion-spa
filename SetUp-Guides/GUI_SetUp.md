@@ -2,8 +2,14 @@
 layout: default
 title: {{ site.name }}
 ---
+<!-- markdownlint-disable headings -->
+<!-- markdownlint-disable no-inline-html -->
 
 # IkData Windows 10 Installer <!-- omit in toc -->
+
+<div class="toc" markdown="1">
+
+## Tabla de Contenido<!-- omit in toc -->
 
 - [Download requirements](#download-requirements)
   - [MySQL](#mysql)
@@ -11,6 +17,9 @@ title: {{ site.name }}
 - [Install](#install)
 - [Update](#update)
 - [Uninstall](#uninstall)
+
+
+</div>
 
 ## Download requirements
 
