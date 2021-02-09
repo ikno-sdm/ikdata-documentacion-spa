@@ -4,6 +4,8 @@ title: {{ site.name }}
 ---
 <!-- markdownlint-disable no-inline-html -->
 
+<div class="toc" markdown="1">
+
 ## Tabla de Contenido<!-- omit in toc -->
 
 - [Introducción](#introducción)
@@ -19,6 +21,8 @@ title: {{ site.name }}
 - [Administración de Lotes](#administración-de-lotes)
 - [Usuarios](#usuarios)
   - [Crear usuario](#crear-usuario)
+
+</div>
 
 ## Introducción
 

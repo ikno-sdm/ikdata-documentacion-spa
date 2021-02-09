@@ -2,15 +2,20 @@
 layout: default
 title: {{ site.name }}
 ---
-
 <!-- markdownlint-disable headings -->
+<!-- markdownlint-disable no-inline-html -->
+
+<div class="toc" markdown="1">
+
 ## Tabla de Contenido<!-- omit in toc -->
 
 - [Sobre Ik-Data](#sobre-ik-data)
   - [Objetivos](#objetivos)
   - [Metodología](#metodología)
-  - [Fuentes de Adquisición de datos](#fuentes-de-adquisición-de-datos)
+  - [Adquisición de datos](#adquisición-de-datos)
 - [Descarga e instalación](#descarga-e-instalación)
+
+</div>
 
 ## Sobre Ik-Data
 
@@ -34,7 +39,7 @@ IK-DATA es un software de Procesamiento inteligente de documentos (IDP) basado e
 1. **Aplicar** Reglas de Negocio
 1. **Generar** imágenes en formatos requeridos y datos enrutados al repositorio, ERP, CRM, flujo de trabajo o archivo.
 
-### Fuentes de Adquisición de datos
+### Adquisición de datos
 
 IK DATA permite procesar documentos provenientes de diversas fuentes incluyendo documentos electrónicos, scanners documentales de diferentes marcas, IBML, Infuse de Alaris, Kodak, Fujitsu entre muchas otras.
 
