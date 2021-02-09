@@ -8,11 +8,15 @@ function doSomething(scroll_pos) {
   var trigger = 290;
   if(scroll_pos > trigger){
       if(isTop)return;
-      document.getElementsByClassName("page-header")[1].style.top = 0;
+      var pageHeader = document.getElementsByClassName("page-header")[1]
+      pageHeader.style.top = 0;
+      pageHeader.style.Display = "block";
       isTop = true;
     }else{
       if(!isTop)return;
-      document.getElementsByClassName("page-header")[1].style.top = "-90px";
+      var pageHeader = document.getElementsByClassName("page-header")[1]
+      pageHeader.style.top = "-18rem";
+      pageHeader.style.Display = "none";
       isTop = false;
   }
 }

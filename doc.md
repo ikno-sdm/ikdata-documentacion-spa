@@ -4,7 +4,7 @@ title: {{ site.name }}
 ---
 <!-- markdownlint-disable no-inline-html -->
 
-## Tabla de Contenido <!-- omit in toc -->
+## Tabla de Contenido<!-- omit in toc -->
 
 - [Introducción](#introducción)
   - [Pantalla principal](#pantalla-principal)
@@ -382,4 +382,4 @@ Desde esta pestaña puede editar, eliminar o crear un [nuevo usuario](#crear-usu
 [sqr2]: media/others/sqr2.svg
 
 <!-- TOC -->
-[toc]: #tabla-de-contenido-
+[toc]: #tabla-de-contenido
