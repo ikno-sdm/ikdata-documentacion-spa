@@ -30,14 +30,14 @@ IK-DATA es un software de Procesamiento inteligente de documentos (IDP) basado e
 
 ### Pantalla principal
 
-![Home Page][HomePage]
-
 Cuando ingresa a Ik-Data, se mostrará la venta de inicio de sesión donde encuentra:
 
   1. **Cambiar idioma**: Cambia el idioma de la interfaz (Inglés / Español).
-  2. Campos para ingreso de los datos de usuario.
      >NOTA: Este botón estará visible en todas las pestañas de la aplicación.
+  2. Campos para ingreso de los datos de usuario.
   3. Versión de Ik-Data.
+
+![Home Page][HomePage]
 
 <details>
 <summary>Modificación de usuario por defecto</summary>
@@ -138,16 +138,17 @@ Cuando abre un proyecto, encuentra dos secciones:
 
 1. Ruta de la carpeta para subir archivos (lotes) para procesar.
 2. Tipos de Clasificación: Configura el tipo de clasificación:
-   - ocr (por defecto cuando queda vacío)
-   - key
-   - qr
+   - ocr: Clasificación según el contenido completo de la imagen.
+   >NOTA: por defecto cuando queda vacío.
+   - key: Búsqueda de una palabra o frase dentro de la imagen.
+   - qr: Búsqueda de códigos (barras o QR).
 3. Idioma de los archivos:
    - Español:
      - spanormal (Recomendado)
      - spa
    - Inglés:
      - eng
-4. Configuración de Segmentación (Para más información consulte [Opciones Tesseract](https://github.com/tesseract-ocr/tesseract/blob/master/doc/tesseract.1.asc#options))
+4. Configuración de Segmentación (Opción Avanzada: Para más información consulte [Opciones Tesseract](https://github.com/tesseract-ocr/tessdoc/blob/master/ImproveQuality.md#page-segmentation-method))
 5. Puede elegir la prioridad que tendrán los lotes del proyecto respecto a otros proyectos (Siendo 1: Más importante y 5: Menos importante).
 
 ![Projects Settings Pre procesamiento][ProjectsSettPrepro]
@@ -155,7 +156,7 @@ Cuando abre un proyecto, encuentra dos secciones:
 <!-- markdownlint-disable MD029 -->
 
 6. Puede configurar un correo GMAIL para procesar los archivos adjunto que a este lleguen.
-7. Permite configurar un escáner [INfuse](https://www.alarisworld.com/es-co/landing-page/infuse-smart-connected-scanning).
+7. Permite configurar un escáner [Kodak Alaris INfuse](https://www.alarisworld.com/es-co/landing-page/infuse-smart-connected-scanning).
    >NOTA: Para ver el funcionamiento de estas dos funciones puede ver el siguiente [video](https://youtu.be/EgRRXJbqHk4).
 9. Limpia las líneas de las imágenes.
 
@@ -167,7 +168,7 @@ Cuando abre un proyecto, encuentra dos secciones:
 
 En esta sección, encuentra los tipos de documentos que va a utilizar en el proyecto (Ej: Factura de venta, pagos, impuestos).
 
-En la sección 2, encuentra los botones tres botones:
+En la sección 2, encuentra tres botones:
 
 - Actualizar: Refresca los cambios el área 1.
 - Borrar: Elimina los documentos seleccionados con el cuadro de selección (Check box).
@@ -180,7 +181,7 @@ Al hacer clic sobre un documento, se mostrará la configuración de dicho docume
 1. Datos generales (De izquierda a derecha):
    - Nombre de la tipología.
    - Descripción.
-   - Margen de confianza: Margen de incertidumbre aceptable (Número entre 1 y 100)
+   - Margen de confianza(Opción Avanzada):  Margen de incertidumbre aceptable (Número entre 1 y 100)
 2. Area para cargar una imagen de referencia.
 3. Elimina la imagen actual.
 4. Descargar la imagen
@@ -212,7 +213,7 @@ En esta pestaña, puede establecer los campos de interés.
 
 En cada campo puede agrupar sub campos que contengan los datos a encontrar. Pulse sobre cualquier campo y vera una lista desplegable donde podrá:
 
-- Modificar el nombre dek sub campo. Presionando en la franja azul.
+- Modificar el nombre del sub campo. Presionando en la franja azul.
 - Activar o desactivar con el cuadro de selección de la parte derecha.
 - Borrar uno o varios, seleccionándolos con el cuadro de selección de la parte izquierda y presionando el botón `Borrar Extracción`.
 - Agregar un sub campo, haciendo clic en el botón `Agregar Extracción`.
@@ -224,7 +225,7 @@ Aquí se resaltan, las siguientes regiones:
 
 1. Información del sub campo:
    - Key Pattern: Texto del título del campo a encontrar.
-   - Key Fuzziness: Margen de posible discrepancia entre el Key Pattern establecido y el procesado.
+   - Key Fuzziness (Opción Avanzada): Margen de posible discrepancia entre el Key Pattern establecido y el procesado.
    - Value Pattern: Expresión Regular del dato a obtener.
 
 2. Área donde se ubica el Key Pattern.
@@ -251,7 +252,7 @@ Una vez procesado y validado los cada documento, se exportarán los datos extra�
 
 ## Subir imágenes
 
-Para subir lotes (documentos PDF, imágenes JPG, png, TIFF) se puede hacer desde la carpeta asignada al proyecto o desde la pestaña 'Subir imágenes' como se explica a continuación:
+Para subir lotes (documentos PDF, imágenes JPG, png, TIFF) se puede hacer desde la carpeta asignada al proyecto o desde esta pestaña, como se explica a continuación:
 
 ![Batches][BatchesUpload]
 
@@ -295,7 +296,7 @@ Cuando un lote es cargado, éste se pone en cola para su procesamiento, el cual 
 8. 🟧FINISHED (Finalizado): Lote finalizado.
 
 <details open>
-<summary>Ver Animación</summary>
+<summary>Ver/Ocultar Animación</summary>
 <div markdown="1">
 
 ![Batch Process][BatchProcess]
@@ -313,8 +314,8 @@ Aquí se presenta:
 
 1. Cada página del lote.
 2. Acciones:
-   - Anterior o Siguiente: Permite moverse por los campos.
-3. Tipo de documento.
+   - Anterior o Siguiente: Permite moverse por las páginas del lote.
+3. Resultado de la clasificación del documento.
 4. Campos y valor obtenido.
    - Si está en Naranja, significa que hay bajo porcentaje de confianza en la detección. Realice la corrección, de ser necesario, y pulse el botón Validar.
 5. Indicación del lugar del campo identificado dentro de la imagen.
