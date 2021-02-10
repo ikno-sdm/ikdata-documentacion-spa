@@ -156,6 +156,10 @@ a:hover { text-decoration: underline; }
   height: 2.5rem;
 }
 
+.page-header + .page-header h2 {
+  display: none;
+}
+
 .page-header + .page-header .btns {
   float: right;
   margin-right: 2rem;
@@ -178,9 +182,10 @@ a:hover { text-decoration: underline; }
 
 .main-content { word-wrap: break-word; }
 .main-content :first-child { margin-top: 0; }
-@media screen and (min-width: 64em) { .main-content { max-width: 64rem; padding: 2rem 6rem; margin-left: 20rem; font-size: 1.1rem; } .toc { float: left; left: 1rem; top: 25rem; position: fixed; } }
-@media screen and (min-width: 42em) and (max-width: 64em) { .main-content { padding: 2rem 4rem; font-size: 1.1rem; } .toc { display: block; } }
-@media screen and (max-width: 42em) { .main-content { padding: 2rem 1rem; font-size: 1rem; } .toc { display: block; } }
+.toc { position: inherit; }
+@media screen and (min-width: 64em) { .main-content { max-width: 64rem; padding: 2rem 6rem; margin-left: 20rem; font-size: 1.1rem; } .toc { float: left; left: 1rem; top: 25rem; position: fixed; } p a em { display: none; } h2#tabla-de-contenido { padding: 0; } }
+@media screen and (min-width: 42em) and (max-width: 64em) { .main-content { padding: 2rem 4rem; font-size: 1.1rem; }  }
+@media screen and (max-width: 42em) { .main-content { padding: 2rem 1rem; font-size: 1rem; }  }
 .main-content img { max-width: 100%; }
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 { padding-top: 70px; margin-top: -40px; margin-bottom: 1rem; font-weight: normal; color: #155799; }
 .main-content p { margin-bottom: 1em; }
@@ -212,7 +217,3 @@ a:hover { text-decoration: underline; }
 .site-footer-owner { display: block; font-weight: bold; }
 
 .site-footer-credits { color: #819198; }
-
-h2#tabla-de-contenido {
-  padding: 0;
-}
