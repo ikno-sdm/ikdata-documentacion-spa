@@ -17,8 +17,8 @@ title: {{ site.name }}
     - [Pre-procesamiento](#pre-procesamiento)
     - [Procesamiento](#procesamiento)
     - [Exportar](#exportar)
-- [Subir imágenes](#subir-imágenes)
 - [Administración de Lotes](#administración-de-lotes)
+- [Subir imágenes](#subir-imágenes)
 - [Usuarios](#usuarios)
   - [Crear usuario](#crear-usuario)
 
@@ -71,10 +71,10 @@ Por defecto al iniciar sesión, ingresará a la pestaña de [Administración de 
 El menú le permite navegar por las diferentes pestañas de la aplicación:
 
 1. [Proyectos](#proyectos) : Lleva a la pestaña de `Gestión de Proyectos`
-2. [Lotes](#lotes) : Lleva a la pestaña de `Administración de Lotes`
+2. [Lotes](#administración-de-lotes) : Lleva a la pestaña de `Administración de Lotes`
 3. [Subir Imágenes](#subir-imágenes) : Lleva a la pestaña de `Subir Lotes`
 4. [Usuarios](#usuarios) : Lleva a la pestaña de `Administración de Usuarios`
-5. [Salir](#salir) : Cierra sesión.
+5. Salir : Cierra sesión.
 
 ![Menú][Menu]
 
@@ -250,16 +250,6 @@ Una vez procesado y validado los cada documento, se exportarán los datos extra�
 
 [*Ir a la Tabla de Contenido.*][toc]
 
-## Subir imágenes
-
-Para subir lotes (documentos PDF, imágenes JPG, png, TIFF) se puede hacer desde la carpeta asignada al proyecto o desde esta pestaña, como se explica a continuación:
-
-![Batches][BatchesUpload]
-
-1. Selecciones el proyecto al cual va a cargar el lote.
-2. Cargue el archivo (Arrastrando y soltando o haciendo Haga clic en cualquier parte de este espacio para abrir el cuadro de carga por default).
-3. Haga clic en el botón `Cargar archivo(s)`.
-
 [*Ir a la Tabla de Contenido.*][toc]
 
 ## Administración de Lotes
@@ -281,6 +271,16 @@ Esta es la vista principal, ya que aquí se encuentra un resumen de la informaci
 5. Gráfico que muestra el número de páginas procesadas en las últimas 24 horas.
 
 ![Batch Management][BatchManagement]
+
+## Subir imágenes
+
+Para subir lotes (documentos PDF, imágenes JPG, png, TIFF) se puede hacer desde la carpeta asignada al proyecto o desde esta pestaña, como se explica a continuación:
+
+![Batches][BatchesUpload]
+
+1. Selecciones el proyecto al cual va a cargar el lote.
+2. Cargue el archivo (Arrastrando y soltando o haciendo Haga clic en cualquier parte de este espacio para abrir el cuadro de carga por default).
+3. Haga clic en el botón `Cargar archivo(s)`.
 
 ---
 
@@ -335,7 +335,7 @@ Al haber confirmado la validación, se exportarán los datos del lote y habrá f
 
 ## Usuarios
 
-Desde esta pestaña puede editar, eliminar o crear un [nuevo usuario](#crear-usuario).
+Desde esta pestaña puede editar, eliminar o [crear un usuario](#crear-usuario).
 
 ### Crear usuario
 
