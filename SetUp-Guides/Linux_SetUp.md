@@ -19,9 +19,9 @@ title: {{ site.name }}
 
 ## Install
 
-1. Copy the `ikdataRunner` folder to `home` of the current user.
+1. Copy the `ikdataRunner` folder to `/home/<yourUserName>/`.
 
-    Eg. /home/myUserName/ikdataRunner.
+    Eg. /home/yourUserName/ikdataRunner.
 
 2. Run `ikDataSetup.sh` with the argument `install`.
 
@@ -35,7 +35,7 @@ In a web browser (Recommended: Microsoft Edge, Mozilla Firefox or Google Chrome)
 
 ## Uninstall
 
-Run `ikDataSetup.sh` with the argument `install`.
+Run `ikDataSetup.sh` with the argument `uninstall`.
 
 ````shell
 ./ikDataSetup.sh uninstall
