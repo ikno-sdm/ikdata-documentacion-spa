@@ -10,7 +10,7 @@ function onScroll(scroll_pos) {
   floatHeader();
   // console.log(scroll_pos);  
 
-  function floatHeader(){
+  function floatHeader() {
     if (scroll_pos > trigger) {
       if (isTop) return;
       var pageHeader = document.getElementsByClassName("page-header")[1]
@@ -26,8 +26,8 @@ function onScroll(scroll_pos) {
     }
   }
   function topToC() {
-    var ham = (window.getComputedStyle((document.getElementsByClassName("toc")[0]))).position;
-    if(ham != "fixed") return;
+    var tocPos = (window.getComputedStyle((document.getElementsByClassName("toc")[0]))).position;
+    if (tocPos != "fixed") return;
     const m = -20.0 / trigger;
     const b = 25;
 
@@ -53,3 +53,14 @@ document.addEventListener('scroll', function (e) {
     ticking = true;
   }
 });
+
+function openTarget() {
+  var hash = location.hash;
+  if (!hash) return;
+  var details = (document.querySelector(hash).parentElement).parentElement;
+  if (details && details.tagName.toLowerCase() === 'details') details.open = true;
+  location = location;
+}
+
+window.addEventListener('hashchange', openTarget);
+openTarget();
