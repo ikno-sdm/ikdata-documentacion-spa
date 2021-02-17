@@ -16,12 +16,16 @@ function onScroll(scroll_pos) {
       var pageHeader = document.getElementsByClassName("page-header")[1]
       pageHeader.style.top = 0;
       pageHeader.style.Display = "block";
+      $('.backtop').fadeIn();
       isTop = true;
     } else {
       if (!isTop) return;
       var pageHeader = document.getElementsByClassName("page-header")[1]
       pageHeader.style.top = "-18rem";
       pageHeader.style.Display = "none";
+      $('.backtop').fadeOut(function() {
+        $(this).removeAttr('style');
+      });
       isTop = false;
     }
   }
@@ -64,3 +68,8 @@ function openTarget() {
 
 window.addEventListener('hashchange', openTarget);
 openTarget();
+
+function backTop() {
+	$("html, body").animate({scrollTop: '0'}, 'slow');
+	$(".backtop").removeClass('active');
+}

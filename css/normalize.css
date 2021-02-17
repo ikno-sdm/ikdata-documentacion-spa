@@ -426,3 +426,23 @@ td,
 th {
   padding: 0;
 }
+
+.backtop {
+  position: fixed;
+  right: 0;
+  bottom: 10px;
+  z-index: 1060;
+  width: 65px;
+  height: 65px;
+  display: none;
+  cursor: pointer;
+}
+
+.backtop i {
+  font-size:55px;
+  color:rgba(0,0,0,0.5)
+ }
+ .backtop:hover i {
+  color:rgba(0,0,0,0.8)
+ }
+ 
