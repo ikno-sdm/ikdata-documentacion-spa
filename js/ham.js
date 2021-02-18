@@ -3,7 +3,21 @@
 let last_known_scroll_position = 0;
 let ticking = false;
 let isTop = false;
+let isDark = false;
 let trigger = 290;
+
+document.addEventListener('scroll', function (e) {
+  last_known_scroll_position = window.scrollY;
+
+  if (!ticking) {
+    window.requestAnimationFrame(function () {
+      onScroll(last_known_scroll_position);
+      ticking = false;
+    });
+
+    ticking = true;
+  }
+});
 
 function onScroll(scroll_pos) {
   topToC();
@@ -23,7 +37,7 @@ function onScroll(scroll_pos) {
       var pageHeader = document.getElementsByClassName("page-header")[1]
       pageHeader.style.top = "-18rem";
       pageHeader.style.Display = "none";
-      $('.backtop').fadeOut(function() {
+      $('.backtop').fadeOut(function () {
         $(this).removeAttr('style');
       });
       isTop = false;
@@ -45,19 +59,6 @@ function onScroll(scroll_pos) {
   }
 }
 
-document.addEventListener('scroll', function (e) {
-  last_known_scroll_position = window.scrollY;
-
-  if (!ticking) {
-    window.requestAnimationFrame(function () {
-      onScroll(last_known_scroll_position);
-      ticking = false;
-    });
-
-    ticking = true;
-  }
-});
-
 function openTarget() {
   var hash = location.hash;
   if (!hash) return;
@@ -70,6 +71,25 @@ window.addEventListener('hashchange', openTarget);
 openTarget();
 
 function backTop() {
-	$("html, body").animate({scrollTop: '0'}, 'slow');
-	$(".backtop").removeClass('active');
+  $("html, body").animate({ scrollTop: '0' }, 'slow');
+  $(".backtop").removeClass('active');
 }
+
+$(document).ready(function () {
+  $(".btn-drk").on('click', function () {
+    $(".icon-drk").toggleClass("fa-toggle-off");
+    $(".icon-drk").toggleClass("fa-toggle-on");
+    if (isDark) {
+      isDark = false;
+      $('body, .dropdown-content').css({ color: "#606c71", backgroundColor: "white" });
+      $('.main-content a, .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6').css(
+        { color: "#155799" });
+    }
+    else {
+      isDark = true;
+      $('body, .dropdown-content').css({ color: "#dcdcdc", backgroundColor: "#292929" });
+      $('.main-content a, .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6').css(
+        { color: "#5aa9f9" });
+    }
+  });
+});
