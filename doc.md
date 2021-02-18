@@ -39,7 +39,7 @@ Cuando ingresa a Ik-Data, se mostrará la venta de inicio de sesión donde encue
 
 ![Home Page][HomePage]
 
-<details>
+<details open>
 <summary>Modificación de usuario por defecto</summary>
 <div markdown="1">
 

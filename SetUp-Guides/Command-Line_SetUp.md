@@ -35,7 +35,7 @@ By default the database connections is with MySQL, if you need to change it:
 
 6. Run the Ik-Data server.
 
-<details>
+<details open>
 <summary>Basic MySQL Installation</summary>
 <div markdown='1'>
 
