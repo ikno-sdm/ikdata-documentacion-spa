@@ -76,20 +76,26 @@ function backTop() {
 }
 
 $(document).ready(function () {
-  $(".btn-drk").on('click', function () {
-    $(".icon-drk").toggleClass("fa-toggle-off");
-    $(".icon-drk").toggleClass("fa-toggle-on");
-    if (isDark) {
-      isDark = false;
-      $('body, .dropdown-content').css({ color: "#606c71", backgroundColor: "white" });
-      $('.main-content a, .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6').css(
-        { color: "#155799" });
-    }
-    else {
-      isDark = true;
-      $('body, .dropdown-content').css({ color: "#dcdcdc", backgroundColor: "#292929" });
-      $('.main-content a, .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6').css(
-        { color: "#5aa9f9" });
-    }
-  });
+  var browserDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  if (browserDark) {
+    changeTheme();
+  }
+  $(".btn-drk").on('click', changeTheme);
 });
+
+function changeTheme() {
+  $(".icon-drk").toggleClass("fa-toggle-off");
+  $(".icon-drk").toggleClass("fa-toggle-on");
+  if (isDark) {
+    isDark = false;
+    $('body, .dropdown-content').css({ color: "#606c71", backgroundColor: "white" });
+    $('.main-content a, .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6').css(
+      { color: "#155799" });
+  }
+  else {
+    isDark = true;
+    $('body, .dropdown-content').css({ color: "#dcdcdc", backgroundColor: "#292929" });
+    $('.main-content a, .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6').css(
+      { color: "#5aa9f9" });
+  }
+}
