@@ -66,7 +66,7 @@ By default the database connections is with MySQL, if you need to change it:
 
 ## Install
 
-1. Run [`SetUp.EXE`](https://github.com/Ortega-Dan/IkData-Installers/releases/download/v1.0/SetUp.EXE) **As Admin**.
+1. Run `SetUp.EXE` **As Admin**.
 
     - Read and accept the Terms and Conditions, then click on `Yes`.
 
