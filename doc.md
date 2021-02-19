@@ -250,8 +250,6 @@ Una vez procesado y validado los cada documento, se exportarán los datos extra�
 
 [*Ir a la Tabla de Contenido.*][toc]
 
-[*Ir a la Tabla de Contenido.*][toc]
-
 ## Administración de Lotes
 
 Esta es la vista principal, ya que aquí se encuentra un resumen de la información más relevante:
@@ -281,6 +279,7 @@ Para subir lotes (documentos PDF, imágenes JPG, png, TIFF) se puede hacer desde
 1. Selecciones el proyecto al cual va a cargar el lote.
 2. Cargue el archivo (Arrastrando y soltando o haciendo Haga clic en cualquier parte de este espacio para abrir el cuadro de carga por default).
 3. Haga clic en el botón `Cargar archivo(s)`.
+   >Nota: El archivo debe ser de máximo 150 MB
 
 ---
 
@@ -314,12 +313,19 @@ Aquí se presenta:
 
 1. Cada página del lote.
 2. Acciones:
-   - Anterior o Siguiente: Permite moverse por las páginas del lote.
-3. Resultado de la clasificación del documento.
+   - Anterior (Alt + B): Moverse a la página anterior.
+   - Siguiente (Alt + N): Moverse a la próxima página.
+   - Validar (Ctrl + Q): Valida la información extraída.
+3. Resultado de la clasificación del documento (Alt + T).
 4. Campos y valor obtenido.
    - Si está en Naranja, significa que hay bajo porcentaje de confianza en la detección. Realice la corrección, de ser necesario, y pulse el botón Validar.
 5. Indicación del lugar del campo identificado dentro de la imagen.
 6. Controles de vista: Podrá aumentar el tamaño de la imagen si requiere comprobar el dato del campo.
+   - Acercar (Alt + I)
+   - Alejar (Alt + O)
+   - Ajustar a vista (Alt + V)
+   - Ajustar a campo (Alt + C)
+   - Rotar ( Alt + R)
 
 ![Batches Validate2][BatchesValidate2]
 
