@@ -75,9 +75,8 @@ function backTop() {
   $(".backtop").removeClass('active');
 }
 
-$(document).ready(function () {
-  var browserDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-  if (browserDark) {
+$(document).ready(function () {  
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
     changeTheme();
   }
   $(".btn-drk").on('click', changeTheme);
