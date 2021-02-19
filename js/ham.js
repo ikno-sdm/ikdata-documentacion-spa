@@ -62,7 +62,9 @@ function onScroll(scroll_pos) {
 function openTarget() {
   var hash = location.hash;
   if (!hash) return;
-  var details = (document.querySelector(hash).parentElement).parentElement;
+  var hashElement = document.querySelector(hash);
+  if(!hashElement) return;
+  var details = (hashElement.parentElement).parentElement;
   if (details && details.tagName.toLowerCase() === 'details') details.open = true;
   location = location;
 }
