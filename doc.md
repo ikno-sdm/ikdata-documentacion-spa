@@ -19,6 +19,7 @@ title: {{ site.name }}
     - [Exportar](#exportar)
 - [Administración de Lotes](#administración-de-lotes)
 - [Subir imágenes](#subir-imágenes)
+- [Sistema](#sistema)
 - [Usuarios](#usuarios)
   - [Crear usuario](#crear-usuario)
 
@@ -32,8 +33,12 @@ IK-DATA es un software de Procesamiento inteligente de documentos (IDP) basado e
 
 Cuando ingresa a Ik-Data, se mostrará la venta de inicio de sesión donde encuentra:
 
-  1. **Cambiar idioma**: Cambia el idioma de la interfaz (Inglés / Español).
-     >NOTA: Este botón estará visible en todas las pestañas de la aplicación.
+  1. Botones de encabezado
+
+     - (ℹ) Información: Muestra información sobre la ventana actual.
+     - 🌐 **Cambiar idioma**: Cambia el idioma de la interfaz (Inglés / Español).
+          >NOTA: Estos botones estará visible en todas las pestañas de la aplicación.
+
   2. Campos para ingreso de los datos de usuario.
   3. Versión de Ik-Data.
 
@@ -51,6 +56,9 @@ Si es la primera vez que inicia sesión, deberá modificar los datos de acceso c
 
 1. Ingrese el nuevo Nombre de Usuario.
 2. Ingrese la nueva Contraseña.
+
+   - La contraseña debe tener al menos : 1 letra minúscula,  1 letra mayúscula,  1 número,  1 carácter especial,  y tener al menos 8 caracteres.
+
 3. Ingrese de nuevo la nueva Contraseña.
 4. Haga clic en el botón `Guardar`
 
@@ -73,8 +81,9 @@ El menú le permite navegar por las diferentes pestañas de la aplicación:
 1. [Proyectos](#proyectos) : Lleva a la pestaña de `Gestión de Proyectos`
 2. [Lotes](#administración-de-lotes) : Lleva a la pestaña de `Administración de Lotes`
 3. [Subir Imágenes](#subir-imágenes) : Lleva a la pestaña de `Subir Lotes`
-4. [Usuarios](#usuarios) : Lleva a la pestaña de `Administración de Usuarios`
-5. Salir : Cierra sesión.
+4. [Sistema](#) : Lleva a la pestaña `Sistema`
+5. [Usuarios](#usuarios) : Lleva a la pestaña de `Administración de Usuarios`
+6. Salir : Cierra sesión.
 
 ![Menú][Menu]
 
@@ -158,7 +167,8 @@ Cuando abre un proyecto, encuentra dos secciones:
 6. Puede configurar un correo GMAIL para procesar los archivos adjunto que a este lleguen.
 7. Permite configurar un escáner [Kodak Alaris INfuse](https://www.alarisworld.com/es-co/landing-page/infuse-smart-connected-scanning).
    >NOTA: Para ver el funcionamiento de estas dos funciones puede ver el siguiente [video](https://youtu.be/EgRRXJbqHk4).
-9. Limpia las líneas de las imágenes.
+8. Limpia las líneas de las imágenes.
+9. Omite el proceso de validación.
 
 <!-- markdownlint-enable MD029 -->
 
@@ -339,6 +349,16 @@ Al haber confirmado la validación, se exportarán los datos del lote y habrá f
 
 [*Ir a la Tabla de Contenido.*][toc]
 
+## Sistema
+
+En esta pestaña puede ver la información de los usuarios que tienen sesión iniciada.
+
+![System][System]
+
+Si presiona sobre algún usuario, podrá ver más información como lo es la IP desde la que está conectado y la el tiempo de expiración de la sesión.
+
+![Session Info][SessionInfo]
+
 ## Usuarios
 
 Desde esta pestaña puede editar, eliminar o [crear un usuario](#crear-usuario).
@@ -384,6 +404,8 @@ Desde esta pestaña puede editar, eliminar o [crear un usuario](#crear-usuario).
 [BatchesFinished]: media/ScreenShots/img24.png "Lote finalizado"
 [UserManagement]: media/ScreenShots/img25.png "Administration de Usuarios"
 [UserNew]: media/ScreenShots/img26.png "Creación de nuevo usuario"
+[System]: media/ScreenShots/img27.png "Sistema"
+[SessionInfo]: media/ScreenShots/img28.png "Información de sesión"
 
 <!-- Gif -->
 [BatchProcess]: media/ScreenShots/processBatch.gif "Progreso de lote"
