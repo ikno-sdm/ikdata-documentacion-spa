@@ -27,7 +27,7 @@ title: {{ site.name }}
 
 ## Introducción
 
-IK-DATA es un software de Procesamiento inteligente de documentos (IDP) basado en inteligencia artificial. Para conocer más acerca de Ik-Data, haga click en el siguiente [enlace](/index)
+IK-DATA es un software de Procesamiento inteligente de documentos (IDP) basado en inteligencia artificial. Para conocer más acerca de Ik-Data, haga click en el siguiente [enlace](index)
 
 ### Pantalla principal
 
