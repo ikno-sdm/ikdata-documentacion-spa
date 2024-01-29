@@ -230,7 +230,7 @@ a:hover { text-decoration: underline; }
 .main-content { word-wrap: break-word; }
 .main-content :first-child { margin-top: 0; }
 .toc { position: inherit; }
-@media screen and (min-width: 64em) { .main-content { max-width: 64rem; padding: 2rem 6rem; margin-left: 20rem; font-size: 1.1rem; } .toc { float: left; left: 0; padding-left: 1rem; padding-right: 1rem; top: 25rem; position: fixed; } p a em { display: none; } h2#tabla-de-contenido { padding: 0; } }
+@media screen and (min-width: 64em) { .main-content { max-width: 90rem; padding: 2rem 6rem; margin-left: 20rem; font-size: 1.1rem; } .toc { float: left; left: 0; padding-left: 1rem; padding-right: 1rem; top: 25rem; position: fixed; } p a em { display: none; } h2#tabla-de-contenido { padding: 0; } }
 @media screen and (min-width: 42em) and (max-width: 64em) { .main-content { padding: 2rem 4rem; font-size: 1.1rem; }  }
 @media screen and (max-width: 42em) { .main-content { padding: 2rem 1rem; font-size: 1rem; }  }
 .main-content img { max-width: 100%; }

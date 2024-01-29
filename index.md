@@ -14,7 +14,7 @@ title: {{ site.name }}
   - [Metodología](#metodología)
   - [Adquisición de datos](#adquisición-de-datos)
 - [Descarga e instalación](#descarga-e-instalación)
-
+ 
 </div>
 
 ## Sobre Ik-Data
