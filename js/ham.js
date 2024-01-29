@@ -100,3 +100,7 @@ function changeTheme() {
       { color: "#5aa9f9" });
   }
 }
+
+$(document).ready(function() {
+  $('[data-fancybox="galeria"]').fancybox();
+});

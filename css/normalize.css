@@ -441,8 +441,7 @@ th {
 .backtop i {
   font-size:55px;
   color:rgba(0,0,0,0.5)
- }
- .backtop:hover i {
+}
+.backtop:hover i {
   color:rgba(0,0,0,0.8)
- }
- 
+}

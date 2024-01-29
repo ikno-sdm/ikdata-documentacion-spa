@@ -7,8 +7,9 @@ title: {{ site.name }}
 
 <div class="toc" markdown="1">
 
-# Tabla de Contenido
+## Tabla de Contenido
 
+- [Diagrama BPMN](#diagrama-bpmn)
 - [Vistas](#vistas)
   - [Conciliar tipologias](#conciliar-tipologias)
   - [Conciliar librodiario](#conciliar-librodiario)
@@ -29,12 +30,20 @@ title: {{ site.name }}
   - [WS Response N3](#ws-response-n3)
 - [Cambiar la Tipologia](#cambiar-la-tipologia)
   - [WS Response N4](#ws-response-n4)
-  - [TipoErrorWS N3](#tipoerrorws-n3)
+    - [TipoErrorWS N3](#tipoerrorws-n3)
 - [Reversar Estado de publicación](#reversar-estado-de-publicación)
   - [WS Response N5](#ws-response-n5)
-  - [TipoErrorWS N4](#tipoerrorws-n4)
+    - [TipoErrorWS N4](#tipoerrorws-n4)
 
 </div>
+
+# Diagrama BPMN
+
+<!-- ![Diagram BPMN][DiagramBPMN] -->
+
+<a href="diagrams/BPMNdiagramaMTI.webp" data-fancybox="galeria">
+    <img src="diagrams/BPMNdiagramaMTI.webp" alt="Diagrama BPMN">
+</a>
 
 # Vistas
 ## conciliar tipologias
@@ -411,3 +420,7 @@ Representa la lista de mensajes de Error que se pueden presentar en caso de ocur
 | 99        | El usuario no puede ser nulo                      |
 | 99        | El código M no se encuentra en estado espera OCR |
 | 500       | Error interno en el servidor                      |
+
+
+<!-- ----------------------IMAGE URLS---------------------------------- -->
+[DiagramBPMN]: diagrams/BPMNdiagramaMTI.webp "Diagrama BPMN"
